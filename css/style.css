@@ -1,0 +1,204 @@
+
+
+
+.bg-box{width: 100%;height: 100%;background-color: #3a6bed;}
+
+.circle-yellow{width: 1180px; height: 1180px; background-color: #fff868; border-radius: 50%; position: absolute; left: -250px; top: -300px}
+.circle-green{width: 960px; height: 960px; background-color: #8df799; border-radius: 50%; position: absolute;right:-150px; top: -350px;}
+.circle-blue{width: 650px; height: 650px; background-color: #3a6bed; border-radius: 50%; position: absolute; left: 560px; top: 200px}
+.circle-purple{width: 1000px; height: 1000px; background-color: #402383; border-radius: 50%; position: absolute; bottom: -500px; left:-100px}
+.circle-red{width: 750px; height: 750px; background-color: #e6514a; border-radius: 50%; position: absolute; bottom:-300px; right: -200px;}
+
+.scircle{width: 220px;height: 220px; color: white; border-radius: 50%; position: absolute;}
+
+.sy{background-color: #fff868}
+.sr{background-color: #e6514a}
+.sb{background-color: #3a6bed}
+.sp{background-color: #402383}
+.sg{background-color: #8df799}
+
+.s1{left: -50px; top: -50px}
+.s2{left: 170px; top: -50px }
+.s3{left: 390px; top: -50px}
+.s4{left: 610px; top: -50px}
+.s5{left: 830px; top: -50px}
+.s6{left: 1050px; top: -50px}
+.s7{left: 1270px; top: -50px}
+.s8{left: 1490px; top: -50px}
+
+.s11{left: -50px; top: 170px}
+.s22{left: 170px; top: 170px}
+.s33{left: 390px ; top:170px}
+.s44{left: 610px; top: 170px}
+.s55{left: 830px; top: 170px}
+.s66{left: 1050px; top: 170px}
+.s77{left: 1270px; top: 170px}
+.s88{left: 1490px; top: 170px}
+
+.s111{left: -50px; top:390px;}
+.s222{left: 170px ; top:390px;}
+.s333{left: 390px; top:390px;}
+.s444{left: 610px; top:390px;}
+.s555{left: 830px; top:390px;}
+.s666{left: 1050px; top:390px;}
+.s777{left: 1270px; top:390px;}
+.s888{left: 1490px; top:390px;}
+
+.s1-4{left: -50px; top:610px;}
+.s2-4{left: 170px ; top:610px;}
+.s3-4{left: 390px; top:610px;}
+.s4-4{left: 610px; top:610px;}
+.s5-4{left: 830px; top:610px;}
+.s6-4{left: 1050px; top:610px;}
+.s7-4{left: 1270px; top:610px;}
+.s8-4{left: 1490px; top:610px;}
+
+.s1-5{left: -50px; top: 830px}
+.s2-5{left: 170px ; top: 830px}
+.s3-5{left: 390px; top: 830px}
+.s4-5{left: 610px; top: 830px}
+.s5-5{left: 830px; top: 830px}
+.s6-5{left: 1050px; top: 830px}
+.s7-5{left: 1270px; top: 830px}
+.s8-5{left: 1490px; top: 830px}
+
+
+
+
+.img1{width: 150px; position: absolute; left: 50px; bottom: -5px; }
+.img2{width: 120px; position: absolute; left: 230px; bottom: 30px;}
+
+h1{font-family: 'Ranchers', cursive; font-size: 14rem; color:#3a6bed ; position: absolute; left: 55px; top: 20px}
+h2{font-family: 'Ranchers', cursive; font-size: 14rem; color:white ; position: absolute;  right: 60px; bottom: 20px;}
+p{font-family: 'Roboto', sans-serif; font-size: 3.75rem; color: #3a6bed; line-height: 1.16em;letter-spacing: 0.0001em;position: absolute; left: 55px; top: 305px; width: 300px;}
+
+
+
+.small-moving{
+	animation-name: s125	animation-duration: 1.5s;
+	animation-iteration-count: infinite;
+	transition-property: all;
+	transition-duration: 0.5s;
+	}
+
+	@-webkit-keyframes s1{
+		0%{transform: scale(1.2); }	
+		50%{transform: scale(1.0);} 
+		100%{ transform: scale(1.2);}
+	}
+
+.small-moving2{
+	animation-name: s2;
+	animation-duration: 1.5s;
+	animation-iteration-count: infinite;
+	transition-property: all;
+	transition-duration: 0.5s;
+	}
+
+	@-webkit-keyframes s2{
+		0%{transform: scale(0.8); }	
+		50%{transform: scale(1.0);} 
+		100%{ transform: scale(0.8);}
+	}
+
+
+
+
+
+
+
+.c-y{ 
+
+	animation-name: y;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	transition-property: all;
+	transition-duration: 0.5s;
+	}
+
+	@-webkit-keyframes y{
+		0%{transform: scale(1.0); }	
+		50%{transform: scale(0.4);} 
+		100%{ transform: scale(1.0);}
+	}
+
+
+
+	.c-g{ 
+
+	animation-name: g;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	transition-property: all;
+	transition-duration: 0.5s;
+	}
+
+	@-webkit-keyframes g{
+		0%{transform: scale(0.5); }		
+		50%{transform: scale(0.8);} 
+		100%{ transform: scale(0.5);}
+	}
+
+
+.c-b{ 
+
+	animation-name: b;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+
+	transition-property: all;
+	transition-duration: 0.5s;
+	}
+
+
+	@-webkit-keyframes b{
+		0%{transform: scale(0.76); }
+		
+		50%{transform: scale(2.0);} 
+
+		100%{ transform: scale(0.76);}
+	}
+
+
+
+.c-p{ 
+
+	animation-name: p;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+
+	transition-property: all;
+	transition-duration: 0.5s;
+	}
+
+
+	@-webkit-keyframes p{
+		0%{transform: scale(0.6); }
+
+		50%{transform: scale(0.9);} 
+
+		100%{ transform: scale(0.6);}
+	}
+
+
+
+.c-r{ 
+
+	animation-name: r;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+
+	transition-property: all;
+	transition-duration: 0.5s;
+	}
+
+
+	@-webkit-keyframes r{
+		0%{transform: scale(1.0); }
+
+		50%{transform: scale(1.8);} 
+
+		100%{ transform: scale(1.0);}
+	}
+
+
